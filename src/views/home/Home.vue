@@ -1,19 +1,20 @@
 <template>
-  <div>
-    <h2>首页</h2>
+  <div id="home">
+    <!-- <nav-bar></nav-bar> -->
   </div>
 </template>
 
 <script>
+// import NavBar from 'components/commom/navbar/NavBar'
+// import NavBar from 'components/commen/navbar/NavBar'
+
 export default {
-  name:'Home',
-  data () {
-    return {
-    }
-  }
-}
+  name: "Home",
+  components: {
+    // NavBar,
+  },
+};
 </script>
 
 <style  scoped>
-
 </style>
