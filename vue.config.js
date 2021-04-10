@@ -10,5 +10,11 @@ module.exports = {
         'views': '@/views',
       }
     }
-  }
+  },
+  // devServer: {
+  //   overlay: {
+  //     warnings: false,
+  //     errors: false
+  //   },
+  //   lintOnSave: false
 }
